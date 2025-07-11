@@ -1,0 +1,16 @@
+{
+  "name": "inventory-scripts",
+  "version": "1.0.0",
+  "description": "Scripts for inventory management system",
+  "main": "create-users.js",
+  "scripts": {
+    "create-users": "node create-users.js",
+    "test-connection": "node test-connection.js",
+    "test-local-auth": "node test-local-auth.js",
+    "test-simple": "node simple-test.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "dotenv": "^16.3.1"
+  }
+} 
